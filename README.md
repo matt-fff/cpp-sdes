@@ -1,7 +1,5 @@
 # cpp-des
-C++ DES symmetric encryption implementation.
-
-This is a simple [DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard) implementation. Currently, it only handles specific sizes of binary input. Further wrapping of the internals to make the utility handle arbitrary lengths and types of input would be required to make the encryption practical rather than academic.
+This is a C++ implementation of [Simplified DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard). It currenly only handles binary input of specific bit count. Further wrapping of the internals to make the utility handle arbitrary lengths and types of input would be required to make the encryption usable - but SDES is [inherently academic](https://en.wikipedia.org/wiki/Data_Encryption_Standard#Simplified_DES).
 
 Compilation:
 
