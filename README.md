@@ -1,5 +1,6 @@
 # cpp-des
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)]()
+
 Written as a college student for a Cryptography course.
 
 This is a C++ implementation of Simplified [DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard). This implementation only handles binary input of specific bit count, so it's not truly useful. SDES is [inherently academic](https://en.wikipedia.org/wiki/Data_Encryption_Standard#Simplified_DES).
